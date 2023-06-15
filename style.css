@@ -8,8 +8,10 @@
 
 .swiper-button-next {
     display: none;
+    right: 0;
 }
-
-.swiper-button-prev {
+.swiper-button-prev .swiper-button-disabled {
     display: none;
+    left: 0;
+    right: 0;
 }
