@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css"
+        integrity="sha384-fZCoUih8XsaUZnNDOiLqnby1tMJ0sE7oBbNk2Xxf5x8Z4SvNQ9j83vFMa/erbVrV" crossorigin="anonymous" />
+        
+
+    <title>Online Learning</title>
+  <link rel="stylesheet" href="/assets/index-fb24e315.css">
+</head>
+<body>
+    
+    <!-- header navbar start -->
+
+    <nav class="py-4">
+            <div class="flex md:justify-between items-center">
+                <div>
+                    <img src="/assets/header-logo-2753cd3e.svg" class="h-6 w-44" alt="logo">
+                </div>
+                
+                <a href="#" class="px-4 py-2 lg:px-4 text-white text-center bg-orange rounded mt-1 mr-8 md:mt-0 md:mr-24">contact</a>
+            </div>
+    </nav>
+
+    <!-- header navbar end -->
+
+<!-- hero section start -->
+
+        <section class=" pt:6 md:pt-20 relative ">
+            <div class="container mx-auto px-6">
+                <div class="md:flex md:justify-between
+                 flex-wrap items-center">
+                    <div class="text-greyblue pr-2 md:w-2/4 lg:pl-12">
+                        <span class="text-xl">New Learning Experience</span>
+                        <h1 class="text-3xl md:text-5xl pb-3">Online Learn</h1>
+                        <p class="text-base md:text-xl">Lorem ipsum dolor sit amet, consectetur <br>
+                            adipiscing elit, sed do eiusmod tempor</p>
+                        <div>
+                            <button class="bg-orange px-4 py-2 rounded-lg mt-2 md:mt-7">
+                            <a href="#" class="px-4 py-2 lg:px-4 md:mx-2 text-white text-center bg-orange  mt-1 md:mt-0 md:ml-1">Explore Now</a>
+                            </button>
+                            
+                        </div>
+                    </div>
+                    <div class="relative pt-2 md:w-2/4">
+                        <img src="/assets/hero-1-91f93c53.jpg" alt="hero" class=" w-64 h-64 md:w-72 md:h-80 lg:w-96 lg:h-96">
+                        <img src="/assets/hero-2-3fe06901.jpg" alt="hero" class="w-60 h-64 absolute left-12 -bottom-10 lg:left-36 -lg:bottom-10 md:w-80 md:h-72 lg:w-96 lg:h-80">
+                    </div>
+                </div>
+                <div class="absolute hidden md:block md:-left-24">
+                    <img src="data:image/png;base64,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" class=" " alt="book">
+                </div>
+            </div>
+        </section>
+
+        <!-- hero section end -->
+        
+        <!-- learning section start -->
+
+        <section class=" mt-9 md:mt-36">
+            <div class="container mx-auto px-6">
+                <div class="text-center text-greyblue ">
+                    <div class="flex justify-center ">
+                        <img src="/assets/logo-cap-0947c47c.svg" alt="cap">
+                    </div>
+                    <h2 class="text-2xl">Welcome to On line learning</h2>
+                    <p class="text-base pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna
+                    aliqua.</p>
+                    <div class="mt-4 md:flex flex-wrap md:justify-center md:items-center">
+                        <div class="border border-dashed p-6 rounded-lg hover:bg-orange hover:text-white md:w-2/5 lg:w-1/5 mb-3 md:mr-4">
+                            <div class="flex justify-center">
+                                <img src="/assets/learning-500971ce.svg" alt="learning" class="pb-4">
+                            </div>
+                            <span class="text-sm ">Online Learning</span>
+                            <p class="text-sm md:text-xs pt-4">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                        <div class="border border-dashed p-6 rounded-lg hover:bg-orange hover:text-white md:w-2/5 lg:w-1/5 mb-3 md:mr-4">
+                            <div class="flex justify-center">
+                                <img src="/assets/learning-500971ce.svg" alt="learning" class="pb-4">
+                            </div>
+                            <span class="text-sm">Online Learning</span>
+                            <p class="text-sm pt-4 md:text-xs">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                        <div class="border border-dashed p-6 rounded-lg hover:bg-orange hover:text-white md:w-2/5 lg:w-1/5 mb-3 md:mr-4">
+                            <div class="flex justify-center">
+                                <img src="/assets/learning-500971ce.svg" alt="learning" class="pb-4">
+                        </div>
+                            <span class="text-sm">Online Learning</span>
+                            <p class="text-sm pt-4 md:text-xs">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                        <div class="border border-dashed p-6 hover:bg-orange hover:text-white md:w-2/5 lg:w-1/5 rounded-lg mb-3">
+                            <div class="flex justify-center">
+                                <img src="/assets/learning-500971ce.svg" alt="learning" class="pb-4">
+                        </div>
+                            <span class="text-sm">Online Learning</span>
+                            <p class="text-sm pt-4 md:text-xs">Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- learning section end -->
+
+        <!-- testimonial section start -->
+
+        <section class="mt-16 md:mt-20 relative">
+            <div class="container mx-auto px-6"> 
+                <div class="pt-10">
+                    <swiper-container class="mySwiper" auto-height="true" space-between="20" navigation="true" pagination="true"
+                        pagination-clickable="true">
+                        
+                            <swiper-slide class="text-center">
+                                <div class="flex justify-center" >
+                                    <img src="/assets/women-b488e8ab.jpg" alt="women" class="h-28 w-28 pb-4">
+                                </div>
+                                <span class="text-greyblue">Jane Doe</span>
+                                <div class="flex justify-center items-center pt-2">
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                </div>
+                                <p class="text-xs text-greyblue pt-4 md:px-2 md:text-base md:pr-2 md:pl-2 lg:pr-20 lg:pl-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                            </swiper-slide>
+                            <swiper-slide class="text-center">
+                                <div class="flex justify-center">
+                                    <img src="/assets/women-b488e8ab.jpg" alt="women" class="h-28 w-28 pb-4">
+                                </div>
+                                <span class="text-greyblue">Jane Doe</span>
+                                <div class="flex justify-center items-center pt-2">
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                </div>
+                                <p class="text-xs text-greyblue pt-4 md:px-2 md:text-base md:pr-2 md:pl-2 lg:pr-20 lg:pl-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna
+                                    aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                            </swiper-slide>
+                            <swiper-slide class="text-center">
+                                <div class="flex justify-center">
+                                    <img src="/assets/women-b488e8ab.jpg" alt="women" class="h-28 w-28 pb-4">
+                                </div>
+                                <span class="text-greyblue">Jane Doe</span>
+                                <div class="flex justify-center items-center pt-2">
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                </div>
+                                <p class="text-xs text-greyblue pt-4 md:px-2 md:text-base md:pr-2 md:pl-2 lg:pr-20 lg:pl-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna
+                                    aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                            </swiper-slide>
+                            <swiper-slide class="text-center">
+                                <div class="flex justify-center">
+                                    <img src="/assets/women-b488e8ab.jpg" alt="women" class="h-28 w-28 pb-4">
+                                </div>
+                                <span class="text-greyblue">Jane Doe</span>
+                                <div class="flex justify-center items-center pt-2">
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                    <i class="fa-regular fa-star text-lightgreen"></i>
+                                </div>
+                                <p class="text-xs text-greyblue pt-4 md:px-2 md:text-base md:pr-2 md:pl-2 lg:pr-20 lg:pl-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna
+                                    aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                            </swiper-slide>
+                            <div part="pagination" class="pb-80"></div>
+                    </swiper-container>
+                </div>
+                <div class="flex justify-center absolute -top-10 right-32 md:right-80 lg:right-2/4">
+                    <img src="/assets/quote-51ad153b.svg" alt="quote" class="top-0">
+                </div>
+                <div class="absolute left-0.625 top-0 pl-2">
+                    <img src="/assets/square1-43b8a734.svg" alt="square" class="w-32 h-32">
+                </div>
+                <div class="absolute right-0 -bottom-10 -lg:bottom-8 pr-2">
+                    <img src="/assets/square2-9da21c02.svg" alt="square" class="w-32 h-32">
+                </div>
+                </div>  
+                
+            </div>
+        </section>
+
+        <!-- testimonial section end -->
+
+        <!-- conatct section start -->
+
+        <section class="relative mt-14">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <div class="flex justify-center">
+                        <img src="/assets/books-b054dc8c.svg" alt="books">
+                    </div>
+                    <h2 class="pt-10 text-greyblue text-2xl md:text-4xl md:pt-20">Subscribe to Our Newsletter</h2>
+                    <p class="text-xs text-greyblue pt-5 md:text-base max-lg: m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.</p>
+                    <div class="flex mt-6 justify-center">
+                        <input placeholder="Enter your email address" class="bg-lightyellow w-80 text-xs text-greyblue pl-4 py-4 rounded-2xl relative" id="form-input">
+                        <div class=" absolute inline-block right-4 md:right-56 lg:right-80 ">
+                            <button class="text-white bg-orange rounded-2xl
+                            p-4 text-xs"><a href="#">Subscribe</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute right-0 bottom-8 hidden md:block">
+                <img src="data:image/png;base64,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" alt="book">
+            </div>
+        </section>
+
+        <!-- contact section end -->
+
+        <!-- blog section start -->
+
+        <section class="mt-20 relative">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <div class="flex justify-center">
+                        <img src="/assets/logo-cap-0947c47c.svg" alt="cap">
+                    </div>
+                    <h2 class="text-greyblue pt-2 text-2xl">Read Our Blog</h2>
+                    <p class="text-xs text-greyblue pt-3 md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna
+                    aliqua.</p>
+                </div>
+                <div class=" justify-center md:flex items-center mt-6 md:mt-16">
+                    <div class=" w-72 h-96 bg-white shadow-md rounded-lg mb-4 md:mr-6 md:w-1/3 lg:w-64">
+                        <div class="flex justify-center">
+                            <img src="/assets/library-ab2df757.jpg" alt="library" >
+                        </div>
+                        <div class="px-4 py-4 text-center">
+                            <h5 class=" text-orange pt-3">Blog Post One</h5>
+                            <p class="text-xs text-greyblue pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                            <button class="text-greyblue text-xs pt-8 pb-4"><a href="#">Read More</a></button>
+                            <div class="border border-spacing-1 border-lightgreen w-8 m-auto"></div>
+                        </div>
+                    </div>
+                    <div class=" w-72 h-96bg-white shadow-md mb-4 rounded-lg md:w-1/3 md:mr-6 lg:w-64">
+                        <div class="flex justify-center">
+                            <img src="/assets/library-ab2df757.jpg" alt="library">
+                        </div>
+                        <div class="px-4 py-4 text-center">
+                            <h5 class=" text-orange pt-3">Blog Post One</h5>
+                            <p class="text-xs text-greyblue pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                            </p>
+                            <button class="text-greyblue text-xs pt-8 pb-4"><a href="#">Read More</a></button>
+                            <div class="border border-spacing-1 border-lightgreen w-8 m-auto"></div>
+                        </div>
+                    </div>
+                    <div class=" w-72 h-96 bg-white shadow-md rounded-lg md:w-1/3 lg:w-64">
+                        <div class="flex justify-center">
+                            <img src="/assets/library-ab2df757.jpg" alt="library">
+                        </div>
+                        <div class="px-4 py-4 text-center">
+                            <h5 class=" text-orange pt-3">Blog Post One</h5>
+                            <p class="text-xs text-greyblue pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                            </p>
+                            <button class="text-greyblue text-xs pt-8 pb-4"><a href="#">Read More</a></button>
+                            <div class="border border-spacing-1 border-lightgreen w-8 m-auto"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute hidden md:block md:-left-28">
+                <img src="data:image/png;base64,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" class=" " alt="book">
+            </div>
+        </section>
+
+        <!-- blog section end -->
+
+        <!-- footer section start -->
+
+        <footer class="bg-footer-bg mt-28 pt-24 pb-10">
+            <div class="container mx-auto px-6">
+                <div class="pt-4 text-center md:flex md:justify-between items-center">
+                    <div class="md:w-2/5 text-center pr-3 lg:pr-8 md:text-left ">
+                        <img src="/assets/footer-18698aa7.svg" alt="footer" class="w-44 h-11">
+                        <p class="pt-8 pb-6 text-white text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br> eiusmod tempor</p>
+                        <span class="text-white text-xs md:text-sm">© Copyright 2022 Online</span>
+                    </div>
+                    <div class="md:w-1/5">
+                        <ul class="text-center md:text-left">
+                            <li class="text-white text-lg pb-2 md:text-left md:pb-3"><a href="#">Information</a></li>
+                            <div class="border border-spacing-1 border-lightgreen w-14 mb-4 m-auto md:m-0"></div>
+                            <li class="text-white text-xs pb-2 md:pb-5 mt-4"><a href="#">About Us</a></li>
+                            <li class="text-white text-xs pb-2 md:pb-5"><a href="#">Products</a></li>
+                            <li class="text-white text-xs pb-2 md:pb-5"><a href="#">Contact Us</a></li>
+                            <li class="text-white text-xs"><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="pt-6 md:w-1/5">
+                        <ul>
+                            <li class="text-white text-sm pb-5"><a href="#">About Us</a></li>
+                            <li class="text-white text-sm"><a href="#">Products</a></li>
+                        </ul>
+                    </div>
+                    <div class="pt-6 md:w-1/5 text-center md:text-left">
+                        <h5 class="text-white text-sm pb-4">Follow Us</h5>
+                        <div class="border border-spacing-1 border-lightgreen w-12 mb-4 text-right m-auto md:m-0"></div>
+                        <div class="flex justify-center md:justify-start mt-4">
+                        <i class="fa-brands fa-facebook text-white pr-2 w-8 h-8"></i>
+                        <i class="fa-brands fa-linkedin text-white pr-2"></i>
+                        <i class="fa-brands fa-twitter text-white pr-2"></i>
+                        <i class="fa-brands fa-square-instagram text-white"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+
+        <!-- footer section end -->
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</body>
+</html>
