@@ -2,16 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-.swiper-autoheight {
-    height: 300px;
+.width{
+    width: 276px;
 }
-
-.swiper-button-next {
-    display: none;
-    right: 0;
+.slick-dots {
+    position: absolute;
+    bottom: -50px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
 }
-.swiper-button-prev .swiper-button-disabled {
-    display: none;
-    left: 0;
-    right: 0;
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #00DBD0;
 }
